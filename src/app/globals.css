@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 24, 24, 27;
+  --background-start-rgb: 250, 250, 250;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 244, 244, 245;
+    --background-start-rgb: 9, 9, 11;
+    --background-end-rgb: 9, 9, 11;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 160, 160, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 160, 160, 0.5);
+}
+
+/* RTL layout adjustments */
+[dir="rtl"] {
+  text-align: right;
+}
+[dir="rtl"] .pl-11 {
+  padding-left: 1rem;
+  padding-right: 2.75rem;
+}
+[dir="rtl"] .left-3.5 {
+  left: auto;
+  right: 0.875rem;
+}
+[dir="rtl"] .pr-24 {
+  padding-right: 1rem;
+  padding-left: 6rem;
+}
+[dir="rtl"] .right-2.5 {
+  right: auto;
+  left: 0.625rem;
+}
+

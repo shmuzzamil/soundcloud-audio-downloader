@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#09090b"/>
+  <circle cx="200" cy="150" r="300" fill="#f97316" opacity="0.15" filter="blur(60px)"/>
+  <circle cx="1000" cy="480" r="350" fill="#ea580c" opacity="0.15" filter="blur(60px)"/>
+  <g transform="translate(100, 180)">
+    <rect width="90" height="90" rx="20" fill="#f97316"/>
+    <path d="M38 28 v32 a7 7 0 1 1 -7 -7 c2.1 0 4 0.8 5.4 2.1 V32 l24 -5 v27 a7 7 0 1 1 -7 -7 c2.1 0 4 0.8 5.4 2.1 V23 Z" fill="#ffffff"/>
+    <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="52" fill="#ffffff">SoundFetch</text>
+    <text x="0" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="44" fill="#ffffff">SoundCloud Downloader &amp; Permitted Audio Helper</text>
+    <text x="0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="24" fill="#a1a1aa">Official API Resolution &bull; Creative Commons &bull; Playlist ZIP &bull; Zero Server Storage</text>
+  </g>
+</svg>
+
